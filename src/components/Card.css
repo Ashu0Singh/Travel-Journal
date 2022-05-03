@@ -1,0 +1,90 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 470px;
+    height: 204px;
+}
+
+.Card--container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Card--line{
+    width: 470px;
+    height: 1px;
+    background-color:#F5F5F5;
+    margin-bottom: 18px;
+}
+.Card--image{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.Card--textDiv{
+    width: 326px;
+    height: 129px;
+}
+
+.Card--location{
+    
+    display: flex;
+    align-items: center;
+}
+
+.Card--location--Name{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    margin-left: 4px;
+    color: #2B283A;
+}
+
+.Card--location--URL{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-left: 12px;
+    text-decoration-line: underline;
+
+    color: #918E9B;
+}
+
+h1{
+    margin: 0;
+    margin-top: 7px;
+    width: 326px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #2B283A;
+}
+
+.Card--textDiv--date{
+    width: 319px;
+    height: 11px;
+    margin-top: 17px;
+    margin-bottom: 9px;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+
+    color: #2B283A;
+}
+
+.Card--textDiv--desc{
+    width: 326px;
+    height: 45px;
+
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    
+    color: #2B283A; 
+}
