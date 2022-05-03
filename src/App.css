@@ -1,9 +1,17 @@
 .App--scrollable{
     padding: 45px 39px;
+    overflow: scroll;
+    height: 619px;
 }
 
 .App{
     width: 550px;
+    
     margin-left: auto;
     margin-right: auto;
+    
 }
+
+.App--scrollable::-webkit-scrollbar {
+    display: none;
+  }
